@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.991" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\eclipseworkspace\Apitesting\target\test-classes;D:\eclipseworkspace\Apitesting\target\classes;C:\Users\KIRAN SHETTY\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\KIRAN SHETTY\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\KIRAN SHETTY\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\KIRAN SHETTY\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\KIRAN SHETTY\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\KIRAN SHETTY\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\KIRAN SHETTY\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\KIRAN SHETTY\AppData\Local\Temp\surefire5256557938506406505\surefirebooter-20251204200211645_3.jar C:\Users\KIRAN SHETTY\AppData\Local\Temp\surefire5256557938506406505 2025-12-04T20-02-10_789-jvmRun1 surefire-20251204200211645_1tmp surefire_0-20251204200211645_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\eclipseworkspace\Apitesting\target\test-classes;D:\eclipseworkspace\Apitesting\target\classes;C:\Users\KIRAN SHETTY\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\KIRAN SHETTY\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\KIRAN SHETTY\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\KIRAN SHETTY\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\KIRAN SHETTY\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\KIRAN SHETTY\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\KIRAN SHETTY\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\KIRAN SHETTY\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\KIRAN SHETTY"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-09-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\eclipseworkspace\Apitesting"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\KIRAN SHETTY\AppData\Local\Temp\surefire5256557938506406505\surefirebooter-20251204200211645_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25+37-LTS-3491"/>
+    <property name="user.name" value="KIRAN SHETTY"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\KIRAN SHETTY\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\KIRANS~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="25"/>
+    <property name="user.dir" value="D:\eclipseworkspace\Apitesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-25\bin;C:\Users\KIRAN SHETTY\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Users\KIRAN SHETTY\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25+37-LTS-3491"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testBasicAuth" classname="tests.AuthTests" time="2.099">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://postman-echo.com/basic-auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic cG9zdG1hbjpwYXNzd29yZA==
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 04 Dec 2025 14:32:14 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 22
+Connection: keep-alive
+CF-RAY: 9a8c031358d858b8-MAA
+etag: W/"16-sJz8uwjdDv0wvm7//BYdNw8vMbU"
+vary: Accept-Encoding
+Set-Cookie: sails.sid=s%3ARDUU5PmQfYZfBipp-e_gJ-cGkZN3PZ1s.vi%2FGIFxiuuv6hd8R1419paaY8qvwwIAD7rm89rnnnbE; Path=/; HttpOnly
+Set-Cookie: __cf_bm=Z0uOXIyJ4PAJr5UqYkb8Gtmz6j7SjfAuO_jD.s5LNtw-1764858734-1.0.1.1-Rjafd5U6trVdzG.yn0ErX_FGw8gWfHCaEfq5V59gpdt_owb6qYqakTqaCaw.TnfqD_d6R2pCsj52xMTidM3mDjhvoj2OHc79ySlR6mHM5.o; path=/; expires=Thu, 04-Dec-25 15:02:14 GMT; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=gVSLImY8OG4WuQWEUnjfaITrtTKRB5yRb1poTw4FmeU-1764858734953-0.0.1.1-604800000; path=/; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+x-envoy-upstream-service-time: 117
+cf-cache-status: DYNAMIC
+Server: cloudflare
+
+{
+    "authenticated": true
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="validateGetRequest" classname="tests.GetTests" time="0.354">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://postman-echo.com/get?foo=bar
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 04 Dec 2025 14:32:15 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+etag: W/"e3-vJtjmuVolP3FdkrFTeoM9DhNT14"
+vary: Accept-Encoding
+Set-Cookie: sails.sid=s%3AOatN1tJpMHdryHKI4OoSuG3ouGZPpFnI.%2By8kUfSBGrLkHyjPqOTqeHZ1GW8XpKTz%2BOkSEigD%2Bt8; Path=/; HttpOnly
+Set-Cookie: __cf_bm=jApQpEUIJyduTtY.ChzCeopEEDDIYqdrRpo9lkM_KUo-1764858735-1.0.1.1-VRFlBs5oEsjA_YTLxlg1hRqpbBFMT6yFCDJnizsqkYxyU0L3S33Q6QX_Ln5LzHFzV2LhBePPXYioU6IOBnK1f.LYxKK_eqhDmpsMwYVgoKY; path=/; expires=Thu, 04-Dec-25 15:02:15 GMT; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=Fwolz80CPiESYFOlNBui16uPxNNlWKuogBfne1XIe8Q-1764858735782-0.0.1.1-604800000; path=/; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+x-envoy-upstream-service-time: 5
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9a8c03193f43b29f-MAA
+
+{
+    "args": {
+        "foo": "bar"
+    },
+    "headers": {
+        "host": "postman-echo.com",
+        "accept-encoding": "gzip, br",
+        "user-agent": "Apache-HttpClient/4.5.13 (Java/25)",
+        "x-forwarded-proto": "https",
+        "accept": "*/*"
+    },
+    "url": "https://postman-echo.com/get?foo=bar"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createUserTest" classname="tests.PostTests" time="0.376">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://postman-echo.com/post
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Kiran",
+    "role": "QA"
+}
+HTTP/1.1 200 OK
+Date: Thu, 04 Dec 2025 14:32:16 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Encoding: gzip
+etag: W/"166-gKLZcYa8tXsGklFf94hzz+zUPkU"
+vary: Accept-Encoding
+Set-Cookie: sails.sid=s%3Aogl3e3ruH9GABQf7TV56BerbTKQIN4OY.4h56SMwc60BI5kszLCBQfg9asoOJnqc%2BbIBQhIJkNoE; Path=/; HttpOnly
+Set-Cookie: __cf_bm=TVCYcmKaSHGsCoRUrS68fZjih4zVBCPnWktf2bow2hM-1764858736-1.0.1.1-9kP077pLHaPslWImqhQBJ2Oik6lOxNogcli2t0msrImuiSinKLa01UrT1.GbtSDlvtnPYn_EPr7RE5Vb3wAJ.1dUC0bSRzZ2sW8JMkZRYk0; path=/; expires=Thu, 04-Dec-25 15:02:16 GMT; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=pY0ySbxaBIiw4eULB4rg74WEaHR_ET2z4BMa14ydksk-1764858736165-0.0.1.1-604800000; path=/; domain=.postman-echo.com; HttpOnly; Secure; SameSite=None
+x-envoy-upstream-service-time: 5
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9a8c031b79b67fc2-MAA
+
+{
+    "args": {
+        
+    },
+    "data": {
+        "name": "Kiran",
+        "role": "QA"
+    },
+    "files": {
+        
+    },
+    "form": {
+        
+    },
+    "headers": {
+        "host": "postman-echo.com",
+        "user-agent": "Apache-HttpClient/4.5.13 (Java/25)",
+        "accept-encoding": "gzip, br",
+        "accept": "*/*",
+        "x-forwarded-proto": "https",
+        "content-type": "application/json",
+        "content-length": "33"
+    },
+    "json": {
+        "name": "Kiran",
+        "role": "QA"
+    },
+    "url": "https://postman-echo.com/post"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

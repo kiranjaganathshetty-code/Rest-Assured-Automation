@@ -1,0 +1,5 @@
+tests\AuthTests.class
+tests\PostTests.class
+utils\payload.class
+Base\BaseTest.class
+tests\GetTests.class
